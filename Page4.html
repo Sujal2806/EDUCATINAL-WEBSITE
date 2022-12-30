@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <title>educational website</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="HTML_Project.html"><img src="ic.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HTML_Project.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>CONTACT US</h1>
+    </section> 
+
+
+<!----CONTACT US-->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98953.77252777926!2d77.54437077349723!3d12.908537020815944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ebbdccfffff%3A0xad11c0e4bdbffcc9!2sBangalore%20University!5e0!3m2!1sen!2sin!4v1670863655741!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Mysore Rd, Jnana Bharathi, Bengaluru, 560056</h5>
+                    <p>Karnataka,INDIA</p>
+                </span>
+            </div>
+        </div> 
+        <div class="contact-col"> 
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+91 </h5>
+                <p>Monday to Saturday, 24/7</p>
+            </span>
+        </div>
+        </div>
+        <div class="contact-col">   
+        <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+                <h5>S-cube@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>  
+        </div>  
+    </div>
+</section>
+
+
+<!-----Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>S-cube univerity, which attracts students from various parts of the world, is one of India’s foremost university recognized for its industry-oriented and technology focussed 
+        curriculum, interactive and hands-on pedagogy, accompanied by intensive industry interface which also involves training of national and international 
+        industry professionals. A multidisciplinary campus and multicultural environment suffused with student activity ensures all round development of its 
+        graduates, grooming them for successful entrepreneurship and global careers</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shashwat,Sujal,Srinivas</p>
+    
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

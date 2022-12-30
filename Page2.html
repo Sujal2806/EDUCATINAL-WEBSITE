@@ -1,0 +1,113 @@
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <title>educational website</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="HTML_Project.html"><img src="ic.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HTML_Project.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About us</h1>
+    </section> 
+
+
+<!----about us content--> 
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Welcome to S-CUBE UNIVERSITY</h1>
+            <p>S-cube univerity, which attracts students from various parts of the world, is one of India’s foremost university recognized for its industry-oriented and technology focussed curriculum, interactive and hands-on pedagogy, accompanied by intensive industry interface which also involves training of national and international industry professionals. An intellectual powerhouse, the campus has successfully attracted healthy amounts of research funding from government grants and private bodies. The research facilities are wide ranging, with a number of laboratories focussed on all aspects of science and technology. The campus boasts of a state-of-the art network that provides connectivity to the entire institute. </p>
+            <p>The Institute is committed to generating, disseminating, and preserving knowledge, and to working with others to bring this knowledge to bear on the world's great challenges. BITS is dedicated to providing its students with an education that combines rigorous academic study and the excitement of discovery with the support and intellectual stimulation of a diverse campus community. We seek to develop in each member of the S-cube's community the ability and passion to work wisely, creatively, and effectively for the betterment of humankind.</p>
+            <p>Our commitment to transparency and stress on equal opportunity has been a key contributing factor behind our emergence as an institute of national repute, our rigorous intake process rewards only merit and ensures that only truly motivated students join us. Our curriculum is continuously being innovated and refreshed to reflect the latest developments in technology and trends within industry. Pure academics are supplemented by pervasive industry engagement and every student is exposed to practical applications of classroom knowledge under a structured semester-long engagement programme.</p>
+            <a href="HTML_Project.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg"
+        </div>
+    </div>
+
+
+<!----Testimonials--> 
+
+</section>
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="sky.png">
+            <div>
+                <p>It's a multicultural university in a diverse, friendly and vibrant city that suits everyone. The co-curricular activities I have taken part in have been amazing additions to my programme. It was the best three years of my life! The opportunities I had there, the things I got to do and the time I spent with my friends were the best.</p>
+                <h3>Shashwat Singh Yadav</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="dasa.jpg">
+            <div>
+                <p>The staff are very supportive and are always trying to improve student experience.The course itself is also really well-structured and lecturers provide all kinds of learning resources to help us consolidate knowledge in different ways. They are always happy to help with clarifying any information and they genuinely want to help us do well.</p>
+                <h3>Dasa Srinivas</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-----Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>S-cube univerity, which attracts students from various parts of the world, is one of India’s foremost university recognized for its industry-oriented and technology focussed 
+        curriculum, interactive and hands-on pedagogy, accompanied by intensive industry interface which also involves training of national and international 
+        industry professionals. A multidisciplinary campus and multicultural environment suffused with student activity ensures all round development of its 
+        graduates, grooming them for successful entrepreneurship and global careers</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Sashwat,Sujal,Srinivas</p>
+    
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
